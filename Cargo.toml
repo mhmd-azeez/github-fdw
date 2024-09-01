@@ -1,6 +1,6 @@
 [package]
-name = "github_fdw"
-version = "0.1.0"
+name = "githubfdw"
+version = "0.2.0"
 edition = "2021"
 
 [lib]
@@ -15,7 +15,7 @@ wit-bindgen-rt = "0.26.0"
 serde_json = "1.0"
 
 [package.metadata.component]
-package = "dylibso:github_fdw"
+package = "dylibso:githubfdw"
 
 [package.metadata.component.target]
 path = "wit"

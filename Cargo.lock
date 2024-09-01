@@ -3,8 +3,8 @@
 version = 3
 
 [[package]]
-name = "github_fdw"
-version = "0.1.0"
+name = "githubfdw"
+version = "0.2.0"
 dependencies = [
  "serde_json",
  "wit-bindgen-rt",
